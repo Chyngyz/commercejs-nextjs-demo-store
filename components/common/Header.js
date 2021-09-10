@@ -185,11 +185,11 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a href="/collection" className="mr-4 font-color-black">Shop</a>
+              <a href="/collection" className="mr-4 font-color-black">Каталог</a>
             </Link>
             <Link href="/about">
               <a href="/about" className="font-color-black">
-                About
+                О нас
               </a>
             </Link>
           </div>
@@ -201,16 +201,12 @@ class Header extends Component {
               alt="Menu icon"
             />
             <Link href="/">
-              <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
+              <a className="logo">
+                <span>ALEE WZ</span>
               </a>
             </Link>
           </div>
-          <div className="d-flex">
+          {/* <div className="d-flex">
             { process.browser && this.renderLoginLogout() }
             <div
               className="position-relative cursor-pointer"
@@ -221,7 +217,7 @@ class Header extends Component {
                 {cart.total_items}
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Menu */}

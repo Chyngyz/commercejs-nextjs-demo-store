@@ -19,8 +19,8 @@ const Home = () => (
     <HomeBanner />
     <CategoryBanner />
     <ProductsBanner />
-    <ExploreBanner />
-    <SocialMedia />
+    {/* <ExploreBanner /> */}
+    {/* <SocialMedia /> */}
     <Footer />
   </Root>
 );

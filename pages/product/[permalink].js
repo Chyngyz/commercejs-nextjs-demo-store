@@ -55,7 +55,7 @@ export default function Product() {
   }, [permalink]);
 
   if (loading) {
-    return <TemplatePage page={ {message: 'Loading...'} } />
+    return <TemplatePage page={ {message: 'Загрузка...'} } />
   }
 
   if (product === null) {
@@ -98,7 +98,7 @@ export default function Product() {
         <div className="product-detail">
           <ProductDetail product={product} />
 
-          <div
+          {/* <div
             onClick={toggleShipping}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
@@ -126,15 +126,15 @@ export default function Product() {
                 __html: detailView
               }}
             />
-          </Collapse>
+          </Collapse> */}
           <div className="h-1 borderbottom border-color-black" />
         </div>
       </div>
     </div>
 
-    <ClientReview />
+    {/* <ClientReview /> */}
     <SuggestedProducts />
-    <ExploreBanner />
+    {/* <ExploreBanner /> */}
     <SocialMedia />
     <Footer />
   </Root>

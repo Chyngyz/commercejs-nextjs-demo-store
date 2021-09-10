@@ -6,58 +6,51 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Commerce.js
+            Alee WZ
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://commercejs.com/docs/"
-                className="mb-3 d-block font-color-medium"
-                target="_blank"
-              >
-                Documentation
-              </a>
-              <a
-                href="https://commercejs.com/features"
+                href="#"
                 className="d-block font-color-medium"
                 target="_blank"
               >
-                Features
+                О нас
               </a>
             </div>
             <div>
               <a
-                href="https://commercejs.com/about"
+                href="#"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
-                About
+                Наши отзыва
               </a>
               <a
-                href="http://slack.commercejs.com/"
+                href="#"
                 className="d-block font-color-medium"
                 target="_blank"
               >
-                Community
+                Контакты
               </a>
             </div>
           </div>
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Follow us
+            Мы в соц сетях
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://twitter.com/commercejs"
+                href="https://facebook.com"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
-                Twitter
+                Facebook
               </a>
               <a
-                href="https://www.instagram.com/commerce.js/"
+                href="https://www.instagram.com/alee.wz"
                 className="d-block font-color-medium"
                 target="_blank"
               >
@@ -66,23 +59,23 @@ const Footer = () => (
             </div>
             <div>
               <a
-                href="https://angel.co/company/chec"
+                href="https://vk.com"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
-                Angel
+                VK
               </a>
               <a
-                href="https://www.linkedin.com/company/chec-chec-commerce-inc.-/"
+                href="https://telegram.org/"
                 className="d-block font-color-medium"
                 target="_blank"
               >
-                LinkedIn
+                Telegram
               </a>
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4">
+        {/* <div className="col-12 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-3">
             Newsletter
           </p>
@@ -95,7 +88,7 @@ const Footer = () => (
               <img src="/icon/arrow-long-right.svg" className="w-24" alt="Arrow icon"/>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="pt-md-5">
@@ -103,27 +96,19 @@ const Footer = () => (
         <div className="custom-container d-flex flex-column flex-md-row align-items-center justify-content-between">
           <div className="pt-5 pb-0 pt-md-4 pb-md-4 d-flex align-items-center flex-wrap justify-content-center">
             <a
-              href="https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store"
+              href="tel:+996999100366"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              Deploy to Netlify
+              +996 999 100366
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="mailto:musamerim@gmail.com"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              Clone in GitHub
-            </a>
-            <p className="px-2 font-color-brand font-size-caption">-</p>
-            <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
-              className="font-color-brand font-size-caption text-uppercase text-center"
-              target="_blank"
-            >
-              Contribute
+              musamerim@gmail.com
             </a>
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
@@ -132,7 +117,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() } Alee WZ
             </a>
           </div>
         </div>
