@@ -24,15 +24,15 @@ const transitionStyles = {
 
 const mobileMenuLinks = [
   {
-    name: 'Home',
+    name: 'Главная',
     link: '/'
   },
   {
-    name: 'Shop',
+    name: 'Каталог',
     link: '/collection'
   },
   {
-    name: 'About',
+    name: 'О нас',
     link: '/about'
   }
 ];
