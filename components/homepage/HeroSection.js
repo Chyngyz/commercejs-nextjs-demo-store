@@ -18,7 +18,6 @@ const params = {
   }
 };
 const images = [
-  '/images/home-1.jpg',
   '/images/home-2.jpg',
   '/images/home-3.jpg',
   '/images/home-4.jpg',
@@ -38,14 +37,14 @@ export default function HeroSection() {
               }}
             >
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                The care you've always needed
+                Мы шьем с любовью
               </p>
               <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
-                A range of products for you
+                Стиль и качество в каждом изделии💕
               </p>
               <Link href="/collection">
                 <a className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 font-color-white hero-btn">
-                  Shop now
+                  Каталог
                 </a>
               </Link>
             </div>

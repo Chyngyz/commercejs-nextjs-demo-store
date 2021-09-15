@@ -14,6 +14,7 @@ const Footer = () => (
                 href="#"
                 className="d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 О нас
               </a>
@@ -23,13 +24,15 @@ const Footer = () => (
                 href="#"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
-                Наши отзыва
+                Наши отзывы
               </a>
               <a
                 href="#"
                 className="d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 Контакты
               </a>
@@ -43,9 +46,10 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/Alee-WZ-110539614689367 "
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 Facebook
               </a>
@@ -53,22 +57,25 @@ const Footer = () => (
                 href="https://www.instagram.com/alee.wz"
                 className="d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 Instagram
               </a>
             </div>
             <div>
               <a
-                href="https://vk.com"
+                href="https://vk.com/public206843347"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 VK
               </a>
               <a
-                href="https://telegram.org/"
+                href="https://t.me/Aleewz"
                 className="d-block font-color-medium"
                 target="_blank"
+                without rel="noopener noreferrer"
               >
                 Telegram
               </a>
