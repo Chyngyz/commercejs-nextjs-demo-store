@@ -14,7 +14,7 @@ const Footer = () => (
                 href="#"
                 className="d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 О нас
               </a>
@@ -24,7 +24,7 @@ const Footer = () => (
                 href="#"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 Наши отзывы
               </a>
@@ -32,7 +32,7 @@ const Footer = () => (
                 href="#"
                 className="d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 Контакты
               </a>
@@ -49,7 +49,7 @@ const Footer = () => (
                 href="https://www.facebook.com/Alee-WZ-110539614689367 "
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 Facebook
               </a>
@@ -57,7 +57,7 @@ const Footer = () => (
                 href="https://www.instagram.com/alee.wz"
                 className="d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 Instagram
               </a>
@@ -67,7 +67,7 @@ const Footer = () => (
                 href="https://vk.com/public206843347"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 VK
               </a>
@@ -75,7 +75,7 @@ const Footer = () => (
                 href="https://t.me/Aleewz"
                 className="d-block font-color-medium"
                 target="_blank"
-                without rel="noopener noreferrer"
+                without="true" rel="noopener noreferrer"
               >
                 Telegram
               </a>

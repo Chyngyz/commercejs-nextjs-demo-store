@@ -20,14 +20,16 @@ const MyApp = ({Component, pageProps}) => {
 
     store.dispatch(setCustomer());
 
-    commerce.products.list().then((res) => {
+    commerce.products.list({limit: 200}).then((res) => {
       store.dispatch({
         type: 'STORE_PRODUCTS',
         payload: res.data
       })
     });
 
-    commerce.categories.list().then((res) => {
+    commerce.categories.list({
+      limit: 200
+    }).then((res) => {
       store.dispatch({
         type: 'STORE_CATEGORIES',
         payload: res.data
